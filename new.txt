@@ -1,0 +1,18 @@
+This is version 1 for GIT. DEMO
+changes new
+
+steps:
+
+git status
+git init // to make folder as git repository
+git add --a// puut all files to staging directory
+git commit -m "Initial commit" // to make commit
+git log // to check log
+rm -rf .git //to everything from repository , to delete git
+git diff // to tell the difference between two files in staging area and working directory
+git diff --staged //compare last commit to currentstaging area
+git commit -a -m "Direct commit" // directly added to staging area
+$ git rm  third.txt // remove third.txt
+$ git mv first.txt first_rename.txt // rename
+git rm --cached filename // to untrack
+
