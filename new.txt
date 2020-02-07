@@ -15,4 +15,5 @@ git commit -a -m "Direct commit" // directly added to staging area
 $ git rm  third.txt // remove third.txt
 $ git mv first.txt first_rename.txt // rename
 git rm --cached filename // to untrack
-
+$ git log --pretty=oneline // gives all commit names
+$ git log --pretty=format:"%h --%an" // to get hash and author name
